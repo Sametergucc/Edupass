@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.contact{
+    background-color: rgba(245, 239, 234, 0.541);
+    height: 100%;
+}
+
+.text-center{
+    text-align: center;
+    padding: 15px 0px;
+}
+
+.contact h1{
+    font-size: 3rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.color{
+    color: rgb(62, 60, 60);
+    cursor: pointer;
+}
+
+.form{
+    width: 100%;
+    /* margin: auto; */
+    padding: 0 16px;
+    padding-bottom: 20px;
+    /* margin: auto; */
+    background-color: rgba(108, 133, 133, 0.658);
+}
+
+.form-input{
+    margin: 10px 0;
+    padding: 15px 3px;
+    width: 90%;
+    font-size: 15px;
+    border: 2px solid grey;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-dark{
+    background-color: white;
+    color: black;
+    border-radius: 0px;
+    padding: 10px 30px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    width: 100%;
+}
+
+.IMAGES{
+    width: 22%;
+    margin: 7px 0px;
+    /* border: 2px solid black; */
+    /* border-radius: 20px; */
+    justify-content:space-between;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    cursor: pointer;
+}
+
+.IMGconnect{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    /* padding-bottom: 15px; */
+}
+
+.IMGconnect a{
+    display: flex;
+    justify-content: center;
+    padding: 12% 20px;
+    text-decoration: none;
+    cursor:default;
+}
+
+.fa-brands, .fab{
+    /* display: flex;
+    justify-content: center;
+    width: 80%; */
+    cursor: pointer;
+}
+
+.connection{
+    background-color: rgba(108, 133, 133, 0.5);
+    width: 30%;
+    padding-bottom: 25px;
+}

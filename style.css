@@ -1,0 +1,199 @@
+/* Global styles */
+body {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    color: #333;
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f7;
+}
+
+h1, h2 {
+    margin-top: 0;
+    font-weight: 600;
+}
+
+/* Header styles */
+header {
+    background-image: #8ec6d8;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+  }
+  header {
+    background-color: #8ec6d8;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+
+header h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+}
+
+header form {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin: 0 auto;
+}
+
+header input {
+    width: 100%;
+    padding: 10px;
+    font-size: 1.1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+}
+
+header button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    padding: 10px 20px;
+    margin-left: 10px;
+    transition: 0.3s;
+}
+
+header button:hover {
+    background-color: #45a049;
+}
+
+/* Popular searches styles */
+.popular-searches {
+    background-color: #f7f7f7;
+    padding: 40px 0;
+}
+
+.popular-searches h2 {
+    margin-bottom: 20px;
+}
+
+.popular-searches ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.popular-searches li {
+    margin: 5px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s;
+}
+
+.popular-searches li:hover {
+    background-color: #e6e6e6;
+}
+
+/* Job listings styles */
+.job-listings {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.job-listings h2 {
+    margin-bottom: 20px;
+}
+
+.job-listings ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.job-listings li {
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    transition: 0.3s;
+}
+
+.job-listings li:hover {
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+}
+
+.job-listings li h3 {
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.job-listings li p {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+}
+
+.job-listings li a {
+    text-decoration: none;
+    color: #3498db;
+}
+    .job-listings li a:hover {
+        color: #2980b9;
+    }
+    
+    /* Responsive adjustments */
+    @media (max-width: 768px) {
+        header form {
+            width: 100%;
+        }
+    
+        header input, header button {
+            width: 100%;
+        }
+    
+        .popular-searches ul, .job-listings ul {
+            flex-direction: column;
+        }
+    }
+    
+    /* Animasyonlar */
+    .job-listings li:hover {
+        transform: scale(1.02);
+    }
+    
+    .popular-searches li:hover {
+        transform: scale(1.9);
+    }
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 12px;
+        letter-spacing: 5px;
+        background-color: #ff914d;
+        
+        
+        
+    }
+    
+    .navbar-nav li a:hover {
+        color: #4C3173 !important;
+    }    .container-fluid {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }

@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+*{
+    /* box-sizing: border-box; */
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+
+.portfolio a{
+    text-decoration: none;
+    font-size: 40px;
+    color: white;
+    padding: 15px 25px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
+
+.leftNav{
+    width: 75%;
+    display: flex;
+    align-items: center;
+}
+
+.rightNav{
+    visibility: none;
+    display: none;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 25%;
+    text-align: right;
+    padding: 0px 20px;
+}
+
+.hidden{
+    visibility: hidden;
+    display: none;
+}
+
+#search{
+    padding: 3px 10px;
+    border: 2px solid gray;
+    border-radius: 16px;
+}
+
+.leftNav li{
+    list-style: none;
+    padding: 18px 25px;
+}
+
+.leftNav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.05rem;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.leftNav li a:hover, .portfolio a:hover{
+    text-decoration: none;
+    color: rgb(163, 163, 163);
+    /* font-weight: bolder; */
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 33%;
+    border: 2px white solid;
+    border-radius: 50px;
+}
+
+.background{
+    background: rgba(0, 0, 0, 0.7) url('../Images/tianjin-g8730b58b4_1920.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+
+/* =====Hamburger Menu===== */
+.burger{
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    left: 5px;
+    top: 15px;
+}
+
+.line{
+    width: 33px;
+    height: 4px;
+    background-color: rgb(255, 255, 255);
+    margin: 5px 3px;
+}
+
+.icon #bar1{
+    transform: translateY(-4px);
+    transition: all 0.5s ease-in;
+}
+
+.icon #bar3{
+    transform: translateY(4px);
+    transition: all 0.5s ease-in;
+}
+
+.icon #bar1{
+    transform: translateY(2px) rotate(-45deg);
+    transition: all 0.5s ease-in;
+}
+
+.icon #bar2{
+    opacity: 0;
+}
+
+.icon #bar3{
+    transform: translateY(-16px) rotate(45deg);
+    transition: all 0.5s ease-in;
+}
