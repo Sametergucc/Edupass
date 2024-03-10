@@ -42,7 +42,6 @@
         button:hover {
             background-color: #000000;
             color: rgb(0, 0, 0);
-
         }
         #image {
             margin-top: 30px;
@@ -61,21 +60,16 @@
 </head>
 <body>
     <div class="container">
-        
-        <img src="phantom png.png" onclick="getAccount()" width="400"></img>
+        <img src="Images/phantom png.png" width="400"></img>
         <div id="image"></div>
-        <button>Phantom Giriş 
-
-        </button>
-        <a href="gemini.html"><img src="Profile-Transparent.png" width="50"> </a>
-
-       
+        <button onclick="getAccount()">Phantom Giriş</button>
+        <a href="gemini.html"><img src="Images/a.png" width="50"></a>
     </div>
 
     <script src="https://apis.google.com/js/platform.js" async defer></script>
     
-    <script> 
-        function getAccount() {
+    <script>
+       function getAccount() {
             window.solana.connect;
             window.solana.request({method:"connect"});
         }
